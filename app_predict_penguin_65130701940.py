@@ -45,6 +45,7 @@ input_data['sex'] = sex_encoder.transform(input_data['sex'])
 input_data['island'] = island_encoder.transform(input_data['island'])
 
 # Make predictions
+input_data
 prediction = model.predict(input_data)
 
 # Show prediction results
