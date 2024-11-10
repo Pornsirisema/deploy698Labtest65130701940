@@ -22,7 +22,7 @@ st.title("Penguin Species Classifier")
 
 # Upload the user data
 st.header("Enter the penguin features for prediction")
-sex = st.selectbox('Select Sex', ['Male', 'Female'])
+sex = st.selectbox('Select Sex', ['MALE', 'FEMALE'])
 island = st.selectbox('Select Island', ['Torgersen', 'Biscoe', 'Dream'])
 culmen_length_mm = st.number_input('Culmen Length (mm)', min_value=0.0, max_value=100.0)
 culmen_depth_mm = st.number_input('Culmen Depth (mm)', min_value=0.0, max_value=100.0)
