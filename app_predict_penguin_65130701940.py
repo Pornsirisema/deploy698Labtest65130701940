@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 import pickle
@@ -8,7 +7,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
-import seaborn as sns
 
 # Load model and encoders from the pickle file
 @st.cache_resource  # Cache to avoid reloading every time the app is run
