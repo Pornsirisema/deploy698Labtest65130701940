@@ -40,6 +40,7 @@ input_data = pd.DataFrame({
 })
 
 # Transform the categorical features using the encoders
+sex_encoder.classes_
 input_data['sex'] = sex_encoder.transform(input_data['sex'])
 input_data['island'] = island_encoder.transform(input_data['island'])
 
